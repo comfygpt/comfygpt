@@ -1,17 +1,21 @@
-## Hi there 👋
-init
+# ComfyGPT
 
-<!--
-**comfygpt/comfygpt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+## Quick Start 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Environment Setup
+
+You can easily set up a environment according to the following command:
+```buildoutcfg
+conda create -n comfygpt python==3.10
+conda activate comfygpt
+pip install -r requirements.txt
+```
+
+<!-- Additionally, download the `comfy_res` directory from [this link](https://huggingface.co/xiatianzs/comfy_res) and place it in the `./comfygpt/` directory. -->
+
+### Inference
+```buildoutcfg
+python infer.py --instruction "This workflow can generate image, using sd3 model."
+```
+

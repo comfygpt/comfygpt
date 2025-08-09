@@ -1,0 +1,16 @@
+GitPython==3.1.44
+GitPython==3.1.44
+httpx==0.28.1
+ipdb==0.13.13
+numpy==2.2.3
+Requests==2.32.3
+scikit_learn==1.6.1
+sentence_transformers==2.2.1
+tiktoken==0.9.0
+tinydb==4.8.2
+tqdm==4.67.1
+transformers==4.48.3
+websocket_client==1.8.0
+huggingface_hub==0.24.0
+hydra-core
+accelerate

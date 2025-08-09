@@ -1,0 +1,23 @@
+flow_agent:
+  model_path: resources/model/flow_agent
+  max_new_tokens: 8192
+  top_p: 0.7
+  temperature: 0.95
+  primitive: False
+
+refine_agent:
+  local: True
+  model_path: /data1/mrwu_tmp/huangoucheng/res/Qwen2.5-7B-Instruct
+  k: 5
+  max_new_tokens: 4096
+
+node_base:
+  node_info_db_path: resources/node_info.json
+  node_list_path: resources/node_list.json
+  embedding_model_path: resources/model/paraphrase-multilingual-MiniLM-L12-v2
+
+
+execute_agent:
+  comfyui_address: 127.0.0.1:8818
+
+
